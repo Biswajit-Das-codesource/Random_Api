@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px pink,
+    2px 2px 20px pink;
+    color: white;
+    border-radius: 20px;
+}
+.photo-section{
+    height: 200px;
+    width: 100%;
+    border-bottom-left-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 20px;
+}
